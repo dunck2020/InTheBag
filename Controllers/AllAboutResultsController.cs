@@ -15,7 +15,7 @@ namespace InTheBag.Controllers
             var time = DateTime.Now.Hour;
 
             //used to test function
-            day = "Friday";
+            //day = "Friday";
             if (time <= 6)
             {
                 ViewBag.Greeting = "It's to early to be up!";
